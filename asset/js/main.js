@@ -258,10 +258,10 @@ $(document).on('click', '#tombolPopup', function (e) {
                                 Swal.fire({
                                     title: 'Beneran? Aku tanya sekali lagi nih. Sayang gak sama aku?',
                                     icon: 'question',
-                                    text: 'Coba jawab yang bener',
+                                    text: 'Coba jawab yang bener 👉👈',
                                     showCancelButton: true,
                                     confirmButtonText: 'Beneran, enggak',
-                                    cancelButtonText: 'Ya, sayang lah',
+                                    cancelButtonText: 'Ya, sayang lah!',
                                     confirmButtonColor: '#d33',
                                     cancelButtonColor: '#3085d6',
                                     showClass: {
@@ -273,7 +273,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                 }).then((result) => {
                                     if (result.isConfirmed) {
                                         Swal.fire({
-                                            title: 'Yaudah deh',
+                                            title: 'Yaudah deh kl gt',
                                         }).then(() => {
                                             Swal.fire({
                                                 imageUrl: 'https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif',
@@ -347,13 +347,13 @@ $(document).on('click', '#tombolPopup', function (e) {
                                         })
                                     } else {
                                         Swal.fire({
-                                            title: 'Aku juga sayang banget sama ' + nama
+                                            title: 'Aku juga sayang banget sama ' + nama + '!!'
                                         }).then(() => {
                                             Swal.queue([{
                                                 title: 'Seberapa sayang' + ' ' + nama + ' ' + 'ke aku?',
                                                 confirmButtonText: 'Submit',
                                                 showCancelButton: true,
-                                                text: 'Coba isi pengen tau seberapa sayang kamu ke aku',
+                                                text: 'Coba geser, pen tau seberapa sayang kamu ke aku ehe',
                                                 showClass: {
                                                     popup: 'animate__animated animate__jackInTheBox'
                                                 },
@@ -371,7 +371,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                 inputValue: 15,
                                                 preConfirm: function (value) {
                                                     Swal.insertQueueStep({
-                                                        title: 'Terima kasih sudah sayang ke aku' + ' ' + value + '%',
+                                                        title: 'Terima kasih udah sayang ke aku' + ' ' + value + '% 😙',
                                                         icon: "info"
                                                     })
                                                 },
@@ -384,8 +384,8 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                     showCancelButton: true,
                                                     confirmButtonColor: '#3085d6',
                                                     cancelButtonColor: '#d33',
-                                                    confirmButtonText: 'Kangen banget',
-                                                    cancelButtonText: 'Enggak',
+                                                    confirmButtonText: 'Kangen bgtt plis',
+                                                    cancelButtonText: 'G',
                                                     showClass: {
                                                         popup: 'animate__animated animate__jackInTheBox'
                                                     },
@@ -395,7 +395,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                 }).then((result) => {
                                                     if (result.isConfirmed) {
                                                         Swal.fire({
-                                                            title: 'Sama aku juga kangen sama' + ' ' + nama,
+                                                            title: 'Sama! Aku juga kangen sama' + ' ' + nama + '! ' + 'uWu',
                                                             icon: 'info',
                                                             showClass: {
                                                                 popup: 'animate__animated animate__jackInTheBox'
@@ -405,9 +405,9 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                             }
                                                         }).then(() => {
                                                             Swal.fire({
-                                                                title: 'Terakhir nih',
+                                                                title: 'Terakhir nih...',
                                                                 icon: 'info',
-                                                                text: 'Langsung klik oke aja ya!',
+                                                                text: 'Langsung klik OK aja ya wkwk',
                                                                 showClass: {
                                                                     popup: 'animate__animated animate__jackInTheBox'
                                                                 },
@@ -424,7 +424,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                         })
                                                     } else {
                                                         Swal.fire({
-                                                            title: 'Yaudah deh',
+                                                            title: 'Yadah kl gt',
                                                         }).then(() => {
                                                             Swal.fire({
                                                                 imageUrl: 'https://media.giphy.com/media/kzs3OEZTltXVSUQm7G/giphy.gif',
