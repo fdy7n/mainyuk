@@ -22,7 +22,7 @@ $(document).on('click', '#tombolPopup', function (e) {
         }
     }).then(() => {
         Swal.fire({
-            title: 'Harus jawab jujur yaw xD',
+            title: 'Harus jawab jujur yes!',
             showClass: {
                 popup: 'animate__animated animate__jackInTheBox'
             },
@@ -42,18 +42,18 @@ $(document).on('click', '#tombolPopup', function (e) {
                 }
             }).then(() => {
                 Swal.fire({
-                    title: 'Masukin nama kamu dulu yes',
+                    title: 'Masukin nama kamu dulu yaa',
                     showClass: {
                         popup: 'animate__animated animate__jackInTheBox'
                     },
                     hideClass: {
                         popup: 'animate__animated animate__fadeOut'
                     },
-                    html: '<br><input class="form-control" placeholder="Masukkan nama" id="input-field">',
+                    html: '<br><input class="form-control" placeholder="Masukin disini" id="input-field">',
                     content: {
                         element: "input",
                         attributes: {
-                            placeholder: "Masukkan nama disini",
+                            placeholder: "Masukin disini",
                             type: "text",
                             id: "input-field",
                             className: "form-control"
@@ -89,7 +89,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                         }).then((result) => {
                             if (result.isConfirmed) {
                                 Swal.fire({
-                                    title: 'Aku juga sayang banget sama ' + nama + 'xixixi',
+                                    title: 'Aku juga sayang banget sama ' + nama + ' ' + 'xixixi',
                                     showClass: {
                                         popup: 'animate__animated animate__jackInTheBox'
                                     },
@@ -116,7 +116,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                             step: 5,
                                             class: "form-range"
                                         },
-                                        inputValue: 20,
+                                        inputValue: 25,
                                         preConfirm: function (value) {
                                             Swal.insertQueueStep({
                                                 title: 'Terima kasih sudah sayang ke aku' + ' ' + value + '%',
